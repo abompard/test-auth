@@ -14,6 +14,7 @@ setup(
     url="https://github.com/abompard/test-auth",
     packages=find_packages(),
     include_package_data=True,
+    zip_safe=False,
     install_requires=[
         "flask",
         "flask_oidc",
