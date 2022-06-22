@@ -19,7 +19,3 @@ OPENID_ASK_FOR_OPTIONAL = [
     "blog",
     "image",
 ]
-
-
-# FAS OpenID
-FAS_OPENID_ENDPOINT = "https://id.fedoraproject.org/openid/"

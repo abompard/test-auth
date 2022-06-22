@@ -7,7 +7,7 @@ from test_auth.utilities import create_flask_sub_app
 # Set up Flask application
 app = create_flask_sub_app(__name__)
 
-# Set up FAS extension
+# Set up OIDC extension
 OIDC = OpenIDConnect(app, credentials_store=flask.session)
 
 

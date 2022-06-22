@@ -19,7 +19,6 @@ setup(
         "flask",
         "flask_oidc",
         "flask_openid",
-        "python-fedora",
         "python-openid-cla",
         "python-openid-teams",
     ],
