@@ -5,8 +5,10 @@ from werkzeug.middleware.proxy_fix import ProxyFix
 from .fas_openid import app as fas_openid_app
 from .oidc import app as oidc_app
 from .openid import app as openid_app
+from .utilities import create_flask_app
 
-root_app = flask.Flask(__name__)
+
+root_app = create_flask_app(__name__)
 
 
 @root_app.route("/")

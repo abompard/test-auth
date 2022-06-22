@@ -2,10 +2,10 @@ from pprint import pformat
 
 import flask
 from flask_oidc import OpenIDConnect
-from test_auth.utilities import create_flask_app
+from test_auth.utilities import create_flask_sub_app
 
 # Set up Flask application
-app = create_flask_app(__name__)
+app = create_flask_sub_app(__name__)
 
 # Set up FAS extension
 OIDC = OpenIDConnect(app, credentials_store=flask.session)

@@ -2,9 +2,9 @@ from pprint import pformat
 
 import flask
 import flask_fas_openid
-from test_auth.utilities import create_flask_app
+from test_auth.utilities import create_flask_sub_app
 
-app = create_flask_app(__name__)
+app = create_flask_sub_app(__name__)
 FAS = flask_fas_openid.FAS(app)
 
 
