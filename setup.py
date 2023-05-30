@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="fedora-test-auth",
-    version="0.0.1",
+    version="0.0.2",
     author="Aurélien Bompard",
     author_email="abompard@fedoraproject.org",
     description="A very basic app to test authentication",
