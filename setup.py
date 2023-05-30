@@ -17,10 +17,10 @@ setup(
     zip_safe=False,
     install_requires=[
         "flask",
-        "flask_oidc",
         "flask_openid",
         "python-openid-cla",
         "python-openid-teams",
+        "authlib",
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
